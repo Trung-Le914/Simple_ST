@@ -1,1 +1,1 @@
-Simple Streamlit project to approximate trigonometric functions
+Simple Streamlit project to approximate hyperbolic sine
