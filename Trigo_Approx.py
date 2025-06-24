@@ -13,4 +13,4 @@ def approx_sinh(x, n):
         result += (x**(2*i+1))/(factorial(2*i+1))
     
     return result
-    
+
