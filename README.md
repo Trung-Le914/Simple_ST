@@ -1,1 +1,1 @@
-RAG Project
+Simple Streamlit project
