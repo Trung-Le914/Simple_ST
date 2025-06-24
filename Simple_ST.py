@@ -11,7 +11,7 @@ def main():
     )
     
     if st.button("Calculate"):
-        result = approx_sinh(number)
+        result = approx_sinh(number, 1000)
         st.write(f"The approximation of {number} is {result}")
         
 # Đảm bảo bạn gọi hàm main() để ứng dụng Streamlit chạy
