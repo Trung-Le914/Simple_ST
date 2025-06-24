@@ -14,3 +14,6 @@ def main():
         result = approx_sinh(number)
         st.write(f"The approximation of {number} is {result}")
         
+# Đảm bảo bạn gọi hàm main() để ứng dụng Streamlit chạy
+if __name__ == "__main__":
+    main()
