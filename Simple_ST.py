@@ -11,6 +11,6 @@ def main():
     )
     
     if st.button("Calculate"):
-        result = Trigo_Approx(number)
+        result = approx_sinh(number)
         st.write(f"The approximation of {number} is {result}")
         
