@@ -1,4 +1,6 @@
 import streamlit as st
+from Trigo_Approx import approx_sinh
+from Factorial import factorial
 
 def main():
     st.title("Hyperbolic Sine approximation")
