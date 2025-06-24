@@ -1,3 +1,5 @@
+from Factorial import factorial
+
 def approx_sinh(x, n):
     """
     Approximate the hyperbolic sine of x using the Taylor series expansion.
