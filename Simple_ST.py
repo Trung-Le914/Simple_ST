@@ -4,18 +4,16 @@ from Factorial import factorial
 
 def main():
     st.title("Hyperbolic Sine approximation")
-    number = st.slider(
+    number = st.number_input(
         "Enter a number:",
         min_value=2,
-        max_value=99,
-        value=2
+        max_value=99
     )
 
-    nums = st.slider(
+    nums = st.number_input(
         "Enter a number of loop:",
         min_value=10,
-        max_value=1000,
-        value=2
+        max_value=1000
     )
     
     if st.button("Calculate"):
